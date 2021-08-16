@@ -40,8 +40,10 @@ public class LineComparison {
 
         if (lengthA == lengthB)
             System.out.println("Line1 is equal to Line2");
+        else if (lengthA > lengthB)
+            System.out.println("Line1 is greater to Line2");
         else
-            System.out.println("Line1 is not equal to Line2");
+            System.out.println("Line1 is less to Line2");
     }
 
     /**
